@@ -32,4 +32,7 @@ jar {
     manifest {
         attributes 'Main-Class': 'TarGzExtractor' // 여기에 메인 클래스 경로를 정확하게 입력
     }
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
 }
