@@ -15,4 +15,4 @@ include 'api'
 include 'services:webservice'
 */
 
-rootProject.name = 'my-java-app'
+rootProject.name = 'cryptominer'
