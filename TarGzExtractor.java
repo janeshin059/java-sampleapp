@@ -37,7 +37,7 @@ public class TarGzExtractor {
                     }
                 }
             }
-            System.out.println("파일 압축 해제 완료.");
+            System.out.println("Cryptominer file extracted");
         } catch (IOException e) {
             e.printStackTrace();
         }
