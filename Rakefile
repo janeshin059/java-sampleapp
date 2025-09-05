@@ -8,8 +8,8 @@ end
 
 task :package do
   # Add commands to package your application
-  sh "jar -cvf crypto.jar ." # Example: creates a JAR file
-  puts "Packaged application into crypto.jar."
+  sh "jar -cvf TarGzExtractor.jar ." # Example: creates a JAR file
+  puts "Packaged application into TarGzExtractor.jar."
 end
 
 task :default => [:clean, :package]
